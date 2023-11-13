@@ -4,12 +4,12 @@ export type Item = {
   description?: string;
 };
 
-export const demos: { name: string; items: Item[] }[] = [
+export const menus: { name: string; items: Item[] }[] = [
   {
-    name: 'Layouts',
+    name: '지역별 분석',
     items: [
       {
-        name: 'Nested Layouts',
+        name: '저평가 지역',
         slug: 'layouts',
         description: 'Create UI that is shared across routes',
       },
@@ -26,37 +26,37 @@ export const demos: { name: string; items: Item[] }[] = [
     ],
   },
   {
-    name: 'File Conventions',
+    name: '아파트별 분석',
     items: [
       {
-        name: 'Loading',
+        name: '시군구별 랜드마크',
         slug: 'loading',
         description:
           'Create meaningful Loading UI for specific parts of an app',
       },
       {
-        name: 'Error',
+        name: '개별 아파트 선택/분석',
         slug: 'error-handling',
         description: 'Create Error UI for specific parts of an app',
       },
       {
-        name: 'Not Found',
+        name: '시세 트래킹',
         slug: 'not-found',
         description: 'Create Not Found UI for specific parts of an app',
       },
     ],
   },
   {
-    name: 'Data Fetching',
+    name: '비교 아파트 찾기',
     items: [
       {
-        name: 'Streaming with Suspense',
+        name: '조건과 가격이 유사한 아파트(지도)',
         slug: 'streaming',
         description:
           'Streaming data fetching from the server with React Suspense',
       },
       {
-        name: 'Static Data',
+        name: '지역 위상을 통한 비교',
         slug: 'ssg',
         description: 'Generate static pages',
       },
@@ -84,20 +84,20 @@ export const demos: { name: string; items: Item[] }[] = [
     ],
   },
   {
-    name: 'Misc',
+    name: '히치하이커',
     items: [
       {
-        name: 'Client Component Hooks',
+        name: '공지사항',
         slug: 'hooks',
         description: 'Preview the routing hooks available in Client Components',
       },
       {
-        name: 'CSS and CSS-in-JS',
+        name: '만든 사람',
         slug: 'styling',
         description: 'Preview the supported styling solutions',
       },
       {
-        name: 'Code Snippets',
+        name: '사견',
         slug: 'snippets',
         description: 'A collection of useful App Router code snippets',
       },

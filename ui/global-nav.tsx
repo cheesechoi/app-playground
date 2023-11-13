@@ -1,6 +1,6 @@
 'use client';
 
-import { demos, type Item } from '#/lib/demos';
+import { menus, type Item } from '#/lib/menus';
 import { NextLogo } from '#/ui/next-logo';
 import Link from 'next/link';
 import { useSelectedLayoutSegment } from 'next/navigation';
@@ -26,7 +26,7 @@ export function GlobalNav() {
           </div>
 
           <h3 className="font-semibold tracking-wide text-gray-400 group-hover:text-gray-50">
-            App Router
+            히치하이커
           </h3>
         </Link>
       </div>
@@ -52,7 +52,7 @@ export function GlobalNav() {
         })}
       >
         <nav className="space-y-6 px-2 pb-24 pt-5">
-          {demos.map((section) => {
+          {menus.map((section) => {
             return (
               <div key={section.name}>
                 <div className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-gray-400/80">
